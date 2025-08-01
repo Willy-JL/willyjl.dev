@@ -1,5 +1,11 @@
 [
 	{
+		"date": "07-15-2025",
+		"title": "Graduate University",
+		"description": "Completed my BSc Computer Science degree with 1st Class Honours",
+		"icon": "feather:award"
+	},
+	{
 		"date": "02-28-2024",
 		"title": "Founded Momentum FW",
 		"description": "Left the Xtreme team and continued development under a new custom firmware project: Momentum",
@@ -22,11 +28,11 @@
 	{
 		"date": "09-26-2022",
 		"title": "Start University",
-		"description": "Began studying Computer Science at City, University of London",
+		"description": "Began studying Computer Science at City St George's, University of London",
 		"icon": "feather:book",
 		"link": {
-			"text": "Visit City University",
-			"url": "https://www.city.ac.uk/"
+			"text": "Visit City St George's",
+			"url": "https://www.citystgeorges.ac.uk/"
 		}
 	},
 	{
