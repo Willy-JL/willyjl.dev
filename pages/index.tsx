@@ -57,8 +57,9 @@ export default function HomePage() {
 	const isBirthday =
 		today.getDate() === birthday.getDate() && today.getMonth() === birthday.getMonth();
 
-	const description = `I'm a ${age} year old software engineer and computer science student`;
-	const status = "Currently developing Momentum Custom Firmware for Flipper Zero";
+	const description = `I'm a ${age} year old software engineer for embedded and desktop platforms`;
+	const status =
+		'Currently working at Taaak Srl as Embedded Firmware Engineer by day, and developing Momentum Firmware for Flipper Zero as a hobby';
 
 	return (
 		<Layout.Default>
@@ -107,7 +108,9 @@ export default function HomePage() {
 									transition={{
 										delay: 0.1 * (index + 2) + 0.5,
 									}}>
-									<Button.Outline href={action.href} target={action.external ? '_blank' : ''}>
+									<Button.Outline
+										href={action.href}
+										target={action.external ? '_blank' : ''}>
 										{action.icon}
 										<span>{action.text}</span>
 									</Button.Outline>
